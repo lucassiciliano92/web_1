@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Contacto</title>
+	<link rel="stylesheet" href="css/estilos.css"/>
+
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+	<body id="fondoContacto">
+			<header> 
+				<div class="d-none d-sm-none d-md-block"> <!-- Visible para escritorio-->
+					<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">	
+					  <ul class="navbar-nav">
+					    <li class="nav-item">
+					      <a class="nav-link" href="index.html">Inicio</a>
+					    </li>
+					    <li class="nav-item">
+					      <a class="nav-link" href="servicios.html">Servicios</a>
+					    </li>
+					    <li class="nav-item">
+					      <a class="nav-link" href="demos.html">Demos</a>
+					    </li>				    
+					    <li class="nav-item">
+					      <a class="nav-link" href="podcats.html">Podcats</a>
+					    </li>
+					   <li class="nav-item">
+					      <a class="nav-link" href="contacto.html">Contacto</a>
+					    </li>
+					  </ul>
+					</nav>
+				</div>
+				<div class="d-block d-sm-block d-md-none"> <!--Visible para movil-->
+					<nav class="navbar navbar-inverse navbar-dark  bg-dark" >
+					  <div class="container-fluid">
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>                        
+					      </button>
+					      <a class="navbar-brand" href="#"></a>
+					    </div>
+					    <div class="collapse navbar-collapse" id="myNavbar">
+					      <ul class="nav navbar-nav">
+					        <li><a class="nav-link" href="index.html">Home</a></li>    
+					        <li><a class="nav-link" href="servicios.html">Servicios</a>
+					        <li><a class="nav-link" href="demos.html">Demos</a>
+					        <li><a class="nav-link" href="podcats.html">Podcats</a></li>
+					       	<li><a class="nav-link" href="contacto.html">Contacto</a></li>
+					      </ul>
+					    </div>
+					  </div>
+					</nav>
+				</div>
+			</header>
+		<br>
+		<br>
+		<form action="">
+			<div class="textoFormulario">
+				<div>
+					<br>
+					<label>Nombre</label>
+					<input class="efectoInput" type="text" name="nombre">
+					<br>
+					<label>Apellido</label>
+					<input class="efectoInput" type="" name="">
+					<br>
+					<label>E-Mail  </label>
+					<input class="efectoInput"  type="" name="">
+					<br>
+					<label>Teléfono</label>
+					<input class="efectoInput"  type="" name="">
+					<br>
+					<label>¿Deseas recibir mas info?</label>
+					<input type="checkbox" name="acepta" value="2" />
+					<br>
+					<label>Elegí un servicio</label>
+					<br>
+				</div>
+				<div id="estiloOption">
+					<select name="Servicio">
+						<option value="Seleciona">Selecciona</option>
+						<option value="Otro">Otro</option>
+						<br>
+					</select>
+				</div>
+					<br>
+					<textarea class="efectoInput" >Comentarios</textarea>
+					<br>
+				</div>
+				<br>
+				<div id="estiloBotonLimpiar">
+					<input class="efectoBoton" type="reset" value="Limpiar formulario"/>
+				</div>
+				<div>
+					<input class="efectoBoton" type="submit" value="Enviar formulario"/>	
+				</div>
+			</form>
+		<div class="sticky-container">
+			    <ul class="sticky">
+			        <li>
+			            <img src="img/face.jpg" width="32" height="32">
+			            <p><a href="https://www.facebook.com/" target="_blank"><br>Facebook</a></p>
+			        </li>
+			        <li>
+			            <img src="img/twitter.png" width="32" height="32">
+			            <p><a href="https://twitter.com/noprog" target="_blank"><br>Twitter</a></p>
+			        </li>
+			        <li>
+			            <img src="img/linkedin.png" width="32" height="32">
+			            <p><a href="https://www.linkedin.com/company/" target="_blank"><br>LinkedIn</a></p>
+			        </li>
+			        <li>
+			            <img src="img/youtube.png" width="32" height="32">
+			            <p><a href="http://www.youtube.com/" target="_blank"><br>YouYube</a></p>
+			        </li>
+			    </ul>
+			</div>
+
+		<!--<div>
+			<footer>
+				<img src="img/face.png"  width="60" height="50">
+				<img src="img/insta.png" width="55" height="40">
+			</footer>
+		</div>-->
+	</body>
+</html>
